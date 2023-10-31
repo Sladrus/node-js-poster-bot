@@ -37,3 +37,5 @@ bot.on('channel_post', async (msg) => {
     console.log(e);
   }
 });
+
+console.log('Server started');
