@@ -21,7 +21,7 @@ const postNews = async () => {
   }
 };
 
-cron.schedule('* 12 * * *', () => {
+cron.schedule('0 15 * * *', () => {
   postNews();
 });
 
